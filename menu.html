@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meny</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body class="body-menu">
+    <header>
+        <h1>Meny</h1>
+    </header>
+
+    <div>
+        <h2>Pizzor</h2>
+    </div>
+
+    <div class="menu">
+        <div class="menu-item">
+            <label for="margherita"><span>Margherita</span><span>120 kr</span></label>
+            <input type="number" id="margherita-qty" min="0" max="99" value="0">
+        </div>
+        <p class="pizza-info">Tomat, mozzarella, basilika</p>
+        <div class="menu-item">
+            <label for="prosciutto"><span>Prosciutto</span><span class="span1">150 kr</span></label>          
+            <input type="number" id="prosciutto-qty" min="0" max="99" value="0">
+        </div>
+        <p class="pizza-info">Tomat, mozzarella, prosciutto</p>
+        <div class="menu-item">
+            <label for="funghi"><span>Funghi</span><span class="span2">150 kr</span></label>
+            <input type="number" id="funghi-qty" min="0" max="99" value="0">
+        </div>
+        <p class="pizza-info">Tomat, mozzarella, prosciutto, champinjoner</p>
+        <div class="menu-item">
+            <label for="diavola"><span>Diavola</span><span class="span3">150 kr</span></label>
+            <input type="number" id="diavola-qty" min="0" max="99" value="0">
+        </div>
+        <p class="pizza-info">Tomat, mozzarella, stark salami</p>
+        <div class="price" id="total-price">
+            Totalt pris: <span id="total">0</span> kr
+          </div>
+          <button onclick="history.back()">Tillbaka</button>
+    </div>
+</body>
+<script src="menu.js"></script>
+</html>

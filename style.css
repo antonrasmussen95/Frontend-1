@@ -1,0 +1,173 @@
+.body-main {
+    background-image: url(images/pizzeria1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+
+
+    font-size: 100px;
+    color: rgb(0,147,68);
+    background-image: url(images/Flag_of_Italy.png);
+    background-position: center;
+    
+    
+}
+
+.navmenu {
+    text-align: center;  
+    
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+   
+}
+
+a {
+    font-family: 'Inter', sans-serif;
+    color: black;
+    font-size: 50px;
+    text-decoration: none;
+    margin: 0 100px;
+    border: 2px solid;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: beige;
+
+}
+
+.welcome {
+    font-family: 'Inter', sans-serif;
+    color: black;
+    font-size: 24px;
+    border: 2px solid;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 400px;
+    line-height: 1.5;
+    background-color: beige;
+
+}
+
+.body-about {
+    background-image: url(images/italy.jpg);
+    background-size: cover;
+}
+.para {
+    
+    font-family: 'Inter', sans-serif;
+    color: black;
+    font-size: 20px;
+    border: 2px solid;
+    border-radius: 10px;
+    width: 700px;
+    padding: 20px;
+    line-height: 1.5;
+    background-color: beige;
+    
+}
+
+.maindiv {
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    margin-top: 5em;   
+    
+}
+
+button {
+    
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px;
+    font-family: sans-serif;
+    color: black;
+    margin-left: 80%;
+    
+   
+}
+
+button:hover {
+    
+    background-image: url(images/Flag_of_Italy.png);
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+    
+}
+.body-menu {
+    background-color: beige;
+}
+
+h2 {
+    font-family: 'Inter', sans-serif;
+
+    color: black;
+    font-size: 30px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+    border-bottom: 2px solid rgb(0,147,68);
+    
+}
+
+.menu {
+    font-family: 'Inter', sans-serif;
+    
+    margin-left: 100px;
+    padding: 20px;
+   
+}
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 70%;
+    align-items: center;
+    margin-bottom: 10px;
+}
+input {
+    width: 50px;
+    
+}
+
+span {
+    
+    font-size: 20px;
+    padding: 10px;
+    justify-content: center;
+}
+.span1 {
+    margin-left: 5px;
+    
+}
+.span2 {
+    margin-left: 27px;
+}
+.span3 {
+    margin-left: 23px;
+}
+.price {
+    
+    font-size: 20px;
+    margin: 0 auto;
+    padding-left: 10px;
+    margin-top: 40px;
+}
+
+.pizza-info {
+    
+    font-size: 16px;
+    font-style: italic;
+    margin-left: 10px; 
+    margin-bottom: 50px;
+}
